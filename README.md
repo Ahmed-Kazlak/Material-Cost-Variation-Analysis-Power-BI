@@ -1,4 +1,4 @@
-# Material-Cost-Variation-Analysis-Power-BI
+# Material Cost Variation Analysis for Steel Finishing Materials
 
 ## 📝 Overview:
 This project focuses on analyzing the material cost variation for steel finishing materials studied in 2021. The analysis compares material costs and costs at completion for supplying and installing these materials on-site. During the project’s handover in 2024, remaining items were discovered, which led to a study of cost variation. The analysis compares estimated revenue, budgeted costs, approved costs at the project's initiation, and the subcontractor's offer for the remaining items.
@@ -22,9 +22,10 @@ Data was sourced from project reports, subcontractor offers, and cost documentat
    - Budgeted Cost
    - Approved Cost
    - Requested Cost for remaining items
-3. Designed filters to enable comparison of gross profit and budget status across different scenarios.
-4. Built tables to display budgeted, approved, and requested costs for materials alone, alongside their percentage variances.
-5. Analyzed and compared the cost variations between the original budget and the new subcontractor offers, focusing on the effect on profit margins and budget adherence.
+3. Used the DAX function `SELECTEDVALUE` to calculate profit and budget status dynamically based on values chosen from slicers.
+4. Established relationships between tables based on the item as a common value with a **1:1 relationship**, and linked the material table to slicers used for calculations.
+5. Built tables to display budgeted, approved, and requested costs for materials alone, alongside their percentage variances.
+6. Analyzed and compared the cost variations between the original budget and the new subcontractor offers, focusing on the effect on profit margins and budget adherence.
 
 ## 📌 Key Findings:
 - **Gross Profit Analysis**:
