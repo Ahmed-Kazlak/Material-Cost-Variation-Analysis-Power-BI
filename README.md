@@ -40,3 +40,5 @@ Data was sourced from project reports, subcontractor offers, and cost documentat
    - The average percentage difference between the old and new offers is **-43.89%**.
 - **Overall Profit Impact**:
    - The project is expected to face a profit loss of **-14.35%** by the project closure.
+# 📊 Dashboard:
+![Alt text](https://github.com/Ahmed-Kazlak/Material-Cost-Variation-Analysis-Power-BI/blob/main/Material%20Cost%20Variation%20Analysis.png)
